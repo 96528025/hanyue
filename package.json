@@ -1,0 +1,12 @@
+{
+  "name": "hanyue-chinese",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "汉跃：一款原创、可交互的中文学习网页应用",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --test tests/*.test.js",
+    "test:ui": "node tests/ui-smoke.mjs"
+  }
+}
